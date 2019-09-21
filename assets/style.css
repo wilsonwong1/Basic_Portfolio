@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+}
+    
+nav {
+    height: 10vh;
+    background-color: white;
+    display: table;
+    width: 100%;
+    position: relative;
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%; */
+    /* left: 50%; */
+    
+    
+}
+.name {
+    color: white;
+    vertical-align: middle;
+    background-color: #4aaaa5;
+    width: 20%;
+    text-align: center;
+    padding-top: 30px;
+    min-height: 6vh;
+    margin-left: 18.5%;
+    float: left;
+  }
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    border-right: 1px rgba(0, 0, 0, 0.459) solid;
+    color: rgba(128, 128, 128, 0.808);
+    text-align: right;
+  }
+.nav-link:not(:last-child) {
+    padding-right: 20px;
+  }
+.nav-link-container {
+    float: right;
+    color: white;
+    display: table;
+    height: 100%;
+    margin-right: 18.5%;
+}
+main {
+    width: 100%;
+    position: relative;
+    height: 80vh;
+}
+footer {
+    background-color: #4aaaa5;
+    height: 10vh;
+    position: relative;
+}
+.copyright {
+    vertical-align: middle;
+    text-align: center;
+    /* display: table; */
+    font-size: 50%;
+    margin-top: 20px;
+}
+.container  {
+    background-color: whitesmoke;
+    height: 450px;
+    width: 960px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-header {
+    border-bottom-color: black;
+    height: 20%;
+    vertical-align: middle;
+}
+.card-header-text {
+    color:#4aaaa5;
+}
+.card-header-text2 {
+    color:#4aaaa5;
+}
+.footerbackground {
+    background-color: grey;
+    height: 90%;
+    bottom: 0%; /*makes the div class stay on the bottom */
+    position: absolute;
+    width: 100%;
+}
+body {
+    background-image: url('../Images/so-white.png');
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.type {
+    width: 100%;
+}
