@@ -1,5 +1,6 @@
 * {
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
 }
     
 nav {
@@ -30,7 +31,7 @@ nav {
     vertical-align: middle;
     text-decoration: none;
     color: white;
-    border-right: 1px rgba(0, 0, 0, 0.459) solid;
+    border-right: 2px rgba(0, 0, 0, 0.459) solid;
     color: rgba(128, 128, 128, 0.808);
     text-align: right;
   }
@@ -59,7 +60,7 @@ footer {
     text-align: center;
     /* display: table; */
     font-size: 50%;
-    margin-top: 20px;
+    margin-top: 58px;
 }
 .container  {
     background-color: whitesmoke;
@@ -78,10 +79,10 @@ footer {
 }
 .card-header-text {
     color:#4aaaa5;
+    padding-bottom: 20px;
+    padding-top: 12px;
 }
-.card-header-text2 {
-    color:#4aaaa5;
-}
+
 .footerbackground {
     background-color: grey;
     height: 90%;
@@ -96,10 +97,40 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 250px;
     float: left;
 }
 .type {
     width: 100%;
 }
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 1px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.container1  {
+    background-color: whitesmoke;
+    height: 450px;
+    width: 960px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* display: table-cell; */
+    /* display: grid; */
