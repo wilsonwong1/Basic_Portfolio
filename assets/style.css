@@ -1,6 +1,9 @@
 * {
     margin: 0%;
     font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    max-width: 960px; */
+    border-color: orange;
 }
     
 nav {
@@ -133,3 +136,13 @@ input[type=text], select, textarea {
     transform: translate(-50%,-50%);
     /* display: table-cell; */
     /* display: grid; */
+}
+
+.assignment {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+border-color: pink;
+width: 100%;
+}
